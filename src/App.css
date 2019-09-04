@@ -1,0 +1,38 @@
+header {
+  background-color: #2f4f6e;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 65px 1fr 1fr;
+  align-items: center;
+  padding: 1%;
+}
+
+.header img {
+  height: 32px;
+  margin: 0 15px;
+}
+
+.header h1 {
+  font-weight: 400;
+}
+
+nav {
+  justify-self: end;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+li:hover {
+  color: #66aeed;
+}
+
+@media (min-width: 1000px) {
+  li {
+    font-size: 20px;
+  }
+}
