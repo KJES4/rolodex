@@ -68,7 +68,7 @@ button:hover {
 @media (min-width: 1450px) {
   main {
     height: calc(100vh - 120px);
-    width: 905px;
+    width: 975px;
   }
 
   section {

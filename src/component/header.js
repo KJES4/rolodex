@@ -1,5 +1,5 @@
-import React from "react";
-import Logo from "./mainLogo.svg";
+import React from 'react';
+import Logo from './../img/mainLogo.svg';
 
 class Header extends React.Component {
   constructor() {
@@ -20,8 +20,8 @@ class Header extends React.Component {
       );
     }
     return (
-      <header className="header">
-        <img src={Logo} alt="app logo"></img>
+      <header className='header'>
+        <img src={Logo} alt='app logo'></img>
         <h1>Rolodex</h1>
         <nav>{nav}</nav>
       </header>

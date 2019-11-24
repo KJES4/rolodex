@@ -5,6 +5,7 @@ header {
   grid-template-columns: 65px 1fr 1fr;
   align-items: center;
   padding: 1%;
+  z-index: 3;
 }
 
 .header img {

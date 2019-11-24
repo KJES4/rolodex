@@ -1,15 +1,21 @@
-import React from "react";
-import "./App.css";
-import Header from "./header.js";
-import HomeFormSection from "./login.js";
+import React from 'react';
+import './css/App.css';
+import { Provider } from 'react-redux';
 
-function Body() {
+import Header from './component/header.js';
+import HomeFormSection from './component/login.js';
+
+import store from './store';
+
+function App() {
   return (
-    <div className="Body">
-      <Header />
-      <HomeFormSection />
-    </div>
+    <Provider store={store}>
+      <div className='App'>
+        <Header />
+        <HomeFormSection />
+      </div>
+    </Provider>
   );
 }
 
-export default Body;
+export default App;
